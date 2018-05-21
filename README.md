@@ -26,4 +26,13 @@ xx:xx:xx:xx:xx:xx|person-A
 yy:yy:yy:yy:yy:yy|person-B
 ```
 
+### crontab
+
+To schedule the script to run at regular intervals edit your crontab (`crontab -e`) and add:
+
+```
+*/2     *       *       *       *       cd <path-to-script> && ./check-presence.sh
+```
+
+In this example the script will run every 2 minutes.
 
