@@ -26,7 +26,7 @@ xx:xx:xx:xx:xx:xx|person-A
 yy:yy:yy:yy:yy:yy|person-B
 ```
 
-### crontab
+## Run automatically with crontab
 
 To schedule the script to run at regular intervals edit your crontab (`crontab -e`) and add:
 
